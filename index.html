@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassoca</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF5E1;
+            /* Amarelo claro */
+            color: #4B2E2B;
+            /* Marrom claro */
+        }
+
+        header {
+            background-color: #F7D060;
+            /* Amarelo claro */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #4B2E2B;
+            /* Marrom claro */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #DAB892;
+            /* Marrom claro */
+            padding: 10px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4B2E2B;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #FFF5E1
+        }
+
+        .banner {
+            background-color: #4B2E2B;
+            background-size: cover;
+            background-position: center;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #FFF;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .banner h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #FFF;
+            border: 1px solid #DAB892;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 400px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product h3 {
+            margin: 30px 0;
+            font-size: 1.5em;
+        }
+
+        .product p {
+            padding: 0 15px 15px 15px;
+        }
+
+        footer {
+            background-color: #4B2E2B;
+            /* Marrom claro */
+            color: #FFF;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .image img {
+            margin-right: 10px;
+            width: 100px;
+            /* Define o tamanho da imagem */
+            height: auto;
+            border-radius: 50%;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+
+    <section class="banner">
+        <h2>Cassoca LTDA</h2>
+    </section>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="sobre" class="content">
+        <h2>
+            <div class="image"> <img src="logo.png" alt="logo"></div> Sobre Nós
+        </h2>
+        <p>Nossa indústria nasceu da paixão pela paçoca e pela inovação.
+            Combinamos a tradição da paçoca brasileira com a energia do guaraná para criar um produto único e delicioso.
+            Desde o início, nossa missão tem sido proporcionar aos nossos clientes uma experiência de sabor
+            inesquecível,
+            aliando a riqueza cultural da paçoca com os benefícios naturais do guaraná.
+            Nossos produtos são cuidadosamente elaborados com ingredientes selecionados,
+            garantindo qualidade e sabor em cada mordida. Estamos comprometidos em promover práticas sustentáveis e
+            responsáveis,
+            valorizando nossos fornecedores locais e contribuindo para o desenvolvimento da comunidade. Acreditamos que,
+            ao unir tradição e inovação,
+            podemos oferecer algo verdadeiramente especial e compartilhar essa paixão com você.
+        </p>
+    </section>
+    <section id="produtos" class="content">
+        <h2>Nossos Produtos</h2>
+        <div class="products">
+
+            <div class="product">
+                <img src="cassoca.png" alt="Paçoca com Chocolate">
+                <h3>Paçoca com pó de guaraná</h3>
+                <p>A Cassoca com pó de guaraná é uma deliciosa combinação de paçoca com um toque especial de guaraná, perfeita para quem quer experimentar algo novo e revigorante. Produzida com pó de guaraná da fábrica Tapajós, localizada em Goiás, nossa paçoca traz a energia natural desse ingrediente amazônico.
+
+             Feita a partir de amendoins selecionados da empresa TerraNuts, em São Paulo, cada pedaço da Cassoca oferece o sabor tradicional da paçoca, enriquecido com as propriedades estimulantes do guaraná. Ideal para quem busca uma experiência única e deliciosa, nossa paçoca é o equilíbrio perfeito entre tradição e inovação.</p>
+
+
+            </div>
+    </section>
+    <section id="contato" class="content">
+        <h2>Contato</h2>
+        <p>Quer saber mais sobre nossos produtos ou fazer um pedido? Entre em contato conosco!</p>
+        <p>Email: cassocaLTDA@gmail.com</p>
+        <p>Telefone: (11) 4002-8922</p>
+        <p>Uberdlândia, MG</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cassoca Indústria de Alimentos LTDA. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
